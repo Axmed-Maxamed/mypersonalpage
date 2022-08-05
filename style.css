@@ -1,0 +1,134 @@
+*{
+  box-sizing:border-box;
+}
+/* General*/
+.container{
+  width:80%;
+  margin:auto;
+  background:#edf2fc:
+  font-family:sans-serif;
+}
+/*header*/
+ .navbar{
+     background-color: #4A5043;
+     height: 60px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     overflow: hidden;
+     border-bottom: 4px solid coral;
+          
+      }
+
+ul{
+    display: flex;
+    padding: 0 20px;
+         
+  }
+ li{
+     list-style: none;
+     padding: 0 20px;
+   }
+a{
+   display: block;
+   padding: 20px;
+   text-decoration: none;
+   color: white;
+   font-size:18px
+   }
+
+.nav-link:hover{
+     color: coral;
+     text-transform:uppercase;
+}
+
+/* main section*/
+main{
+ margin-left:8%;
+ margin-top:10%;
+}
+
+main h1{
+  font-size:60px;
+  margin-top:20px;
+} 
+main p{
+   font-size:18px;
+   line-height:25px;
+}
+span{
+  color:coral;
+}
+.embeded-video{
+  margin-left:8%;
+  margin-top:20px;
+  width:100%;
+  margin-bottom:20px;
+}
+
+/*projects*/
+#projects{
+         
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: #fff;
+         flex-direction: row;
+         background: #37393A;
+     }
+.flex{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;  
+  }
+     #projects h2{
+        text-align: center;
+     }
+
+#contact{
+  margin-left:8%;
+  margin-top:60px ;
+ 
+}
+
+/*Social links*/
+#contact a{
+  color:#606163;
+  font-size:30px;
+  margin-rigth:20px;
+  display:inline-block;
+}
+#contact a:hover{
+  color:coral;
+ 
+}
+/*footer*/
+
+  footer{
+background:coral;
+    padding:10px 20px;
+    text-align:center;
+    color:white;
+    font-size:20px;
+  }
+
+  img{
+    width: 100px;
+    height: 100px;
+  }
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
